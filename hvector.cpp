@@ -143,7 +143,6 @@ int main()
     v.push_back("abaca");
     v.push_back(A{});
     v.push_back(std::string("asdasdasdas"));
-    v.push_back('a');
 
     v.for_each([](Printer& p) { p.print(); });
 
